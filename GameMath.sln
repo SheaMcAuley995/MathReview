@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01-MathReview", "01-MathReview\01-MathReview.vcxproj", "{D7B44A66-BD53-447E-81FB-0DF111573ABC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathLib", "MathLib\MathLib.vcxproj", "{82B17E34-BE01-448A-A552-D841C6F9A77C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "X-TestSpace", "X-TestSpace\X-TestSpace.vcxproj", "{F8E36212-9D8C-4837-A9FB-F70DC9CC9461}"
+	ProjectSection(ProjectDependencies) = postProject
+		{82B17E34-BE01-448A-A552-D841C6F9A77C} = {82B17E34-BE01-448A-A552-D841C6F9A77C}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +28,22 @@ Global
 		{D7B44A66-BD53-447E-81FB-0DF111573ABC}.Release|x64.Build.0 = Release|x64
 		{D7B44A66-BD53-447E-81FB-0DF111573ABC}.Release|x86.ActiveCfg = Release|Win32
 		{D7B44A66-BD53-447E-81FB-0DF111573ABC}.Release|x86.Build.0 = Release|Win32
+		{82B17E34-BE01-448A-A552-D841C6F9A77C}.Debug|x64.ActiveCfg = Debug|x64
+		{82B17E34-BE01-448A-A552-D841C6F9A77C}.Debug|x64.Build.0 = Debug|x64
+		{82B17E34-BE01-448A-A552-D841C6F9A77C}.Debug|x86.ActiveCfg = Debug|Win32
+		{82B17E34-BE01-448A-A552-D841C6F9A77C}.Debug|x86.Build.0 = Debug|Win32
+		{82B17E34-BE01-448A-A552-D841C6F9A77C}.Release|x64.ActiveCfg = Release|x64
+		{82B17E34-BE01-448A-A552-D841C6F9A77C}.Release|x64.Build.0 = Release|x64
+		{82B17E34-BE01-448A-A552-D841C6F9A77C}.Release|x86.ActiveCfg = Release|Win32
+		{82B17E34-BE01-448A-A552-D841C6F9A77C}.Release|x86.Build.0 = Release|Win32
+		{F8E36212-9D8C-4837-A9FB-F70DC9CC9461}.Debug|x64.ActiveCfg = Debug|x64
+		{F8E36212-9D8C-4837-A9FB-F70DC9CC9461}.Debug|x64.Build.0 = Debug|x64
+		{F8E36212-9D8C-4837-A9FB-F70DC9CC9461}.Debug|x86.ActiveCfg = Debug|Win32
+		{F8E36212-9D8C-4837-A9FB-F70DC9CC9461}.Debug|x86.Build.0 = Debug|Win32
+		{F8E36212-9D8C-4837-A9FB-F70DC9CC9461}.Release|x64.ActiveCfg = Release|x64
+		{F8E36212-9D8C-4837-A9FB-F70DC9CC9461}.Release|x64.Build.0 = Release|x64
+		{F8E36212-9D8C-4837-A9FB-F70DC9CC9461}.Release|x86.ActiveCfg = Release|Win32
+		{F8E36212-9D8C-4837-A9FB-F70DC9CC9461}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
